@@ -19,7 +19,6 @@ const userPost = (req, res = response) => {
         idUsuario
     });
 };
-
 const userPut = (req, res = response) => {
     const { id } = req.params;
 
